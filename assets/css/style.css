@@ -1,0 +1,519 @@
+/* General Background Page Sets */
+body{
+	background-image: url("../images/forest.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100%;
+    min-height: 100%;
+	font-family: "Open Sans", sans-serif;
+
+}
+
+/* Main E|N Heading */
+.nav h1{
+	font-family: "Montserrat", sans-serif;
+	color:white;
+	font-size: 40px;
+	font-weight: bold;
+	margin:20px;
+}
+
+/* Hamburger Navigation Icon Styling */
+#nav-icon3{
+  	width: 40px;
+  	position: relative;
+	float:right;
+	margin-top:-5.5%;
+	margin-right:3%;
+  	cursor: pointer;
+}
+
+#nav-icon3 span {
+	  display: block;
+	  position: absolute;
+	  height:6px;
+	  width: 100%;
+	  background: white;
+	  left: 0;
+	  -webkit-transform: rotate(0deg);
+	  -moz-transform: rotate(0deg);
+	  -o-transform: rotate(0deg);
+	  transform: rotate(0deg);
+	  -webkit-transition: .25s ease-in-out;
+	  -moz-transition: .25s ease-in-out;
+	  -o-transition: .25s ease-in-out;
+	  transition: .25s ease-in-out;
+}
+
+#nav-icon3 span:nth-child(1) {
+  top: 0px;
+}
+
+#nav-icon3 span:nth-child(2),#nav-icon3 span:nth-child(3) {
+  top: 14px;
+}
+
+#nav-icon3 span:nth-child(4) {
+  top: 28px;
+}
+
+#nav-icon3.open span:nth-child(1) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+
+#nav-icon3.open span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#nav-icon3.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+#nav-icon3.open span:nth-child(4) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+
+/* Navigation Menu Items */
+.nav ul{
+	display:none; 
+	margin-right: 8%;
+	float: right;
+	margin-top: -48px;
+}
+
+.nav li{
+	display: inline-block;
+	position: relative;
+	float:right;
+
+}
+
+.nav li a {
+	list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    margin: 12px;
+}
+
+.nav li a:hover {
+	transition: ease-in-out .75s;
+    color:gray;
+    cursor: pointer;
+}
+
+.nav li a.active {
+	color:gray;
+}
+
+
+/* Index.html Main Intro */
+
+.intro h1{
+	font-family: "Libre Baskerville", serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 68px;
+	color:white;
+	margin-top:20%;
+}
+
+.intro h2{
+	font-family: "Open Sans", sans-serif;
+	text-align: center;
+	margin-left:14%;
+	margin-top: 3px;
+	font-size: 24px;
+	color:white;
+}
+
+.intro i{
+	color:white;
+	margin:20% 0 5% 49%; 
+	font-size:40px;
+	
+}
+
+/* index.html first section styling */
+.scroll-1{
+    background-image: url('../images/creampaper.png');
+	min-height: 90%;
+}
+
+.scroll-1 img{
+	float:left;
+	margin:5% 5% 5% 3%;
+	width:35%;
+}
+
+.scroll-1 h1{
+	font-family: "Open Sans", sans-serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 3%;
+	padding-bottom: 1%;
+}
+
+.scroll-1 p{
+	font-family: "Open Sans", serif;
+	text-align: center;
+	font-size: 22px;
+	padding: 4%;
+	line-height: 1.5;
+	padding-bottom: 27.5%;
+	margin-bottom:0;
+}
+/* second section button styling */
+.scroll-1 button {
+	background: none;
+	border:none;
+	margin:1.5% 0 25% 30.75%;
+}
+
+.scroll-1 button a{
+	list-style-type: none;
+	text-decoration: none;
+	border: 1px solid black;
+	font-family: "Open Sans", sans-serif;
+	font-size: 22px;
+	color:black;
+	text-align: center;
+	padding: 10px 15px;
+
+}
+
+.scroll-1 button a:hover{
+	background: black;
+	color:white;
+}
+
+hr {
+    background-color: black !important;
+    color: dimgrey !important;
+    height: 0.5px !important;
+    width: 90% !important;
+}
+
+
+/* index.html second section styling */
+.scroll-2{
+    background-image: url('../images/dark-triangles.png');
+	min-height: 90%;
+}
+
+.scroll-2 img{
+	width:100%;
+	margin: 3px 0 0 0;
+}
+
+.scroll-2 h1{
+	font-family: "Open Sans", sans-serif;
+	font-weight: bold;
+	color: lightgray;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 3%;
+	padding-bottom: 1%;
+
+}
+
+.scroll-2 h2{
+	font-family: "Open Sans", sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	padding: 2% 6% 2% 6%;
+
+}
+
+
+.scroll-2 p{
+	font-family: "Open Sans", sans-serif;
+	text-align: left;
+	line-height: 1.5;
+    font-size: 18px;
+	padding: 3% 6% 3% 6%;
+}
+
+.projects{
+	font-family: "Open Sans", sans-serif;
+
+	margin-top: 20px;
+	min-height: 1200px;
+	padding: 5px;
+}
+.snip{
+	float: left;
+	width: 25%;
+	margin: 4% 4% 4% 4%;
+	background-color: lightgray;
+}
+
+.block{
+	padding-bottom: 25%;
+}
+
+.butt{
+	margin:0 2.5% 5% 5%;
+	width:40%;
+}
+.codebutt{
+	margin:0 5% 5% 2.5%;
+	width:43%;
+	background-color: gray;
+}
+.border{
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+/* index.html third section styling */
+.scroll-3{
+    background-image: url('../images/creampaper.png');
+	min-height: 90%;
+}
+
+.scroll-3 img{
+	float:left;
+	margin:5% 5% 5% 3%;
+	width:35%;
+}
+
+.scroll-3 h1{
+	font-family: "Open Sans", sans-serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 3%;
+	padding-bottom: 1%;
+}
+
+.scroll-3 p{
+	font-family: "Open Sans", sans-serif;
+	text-align: center;
+	font-size: 18px;
+	padding: 4%;
+	line-height: 1.5;
+
+	padding-bottom: 27.5%;
+}
+
+/* ABOUT / PORTFOLIO / CONTACT Page & Nav Bar Setup */
+#pages-body{
+	background:white;
+}
+
+#pages-body .nav h1{
+	color:black;
+} 
+
+#pages-body .nav li a {
+    color: black;
+}
+
+#pages-body #nav-icon3 span {
+	  background: black;
+}
+
+#pages-body .nav li a:hover {
+    color:gray;
+}
+
+#pages-body .nav li a.active {
+	color:gray;
+} 
+
+/* MAIN BODY */
+/* heading - all page universal, title of the page */
+.heading{
+	font-family: "Libre Baskerville", serif;
+	float:left;
+	font-size: 60px;
+	margin: 5% 40% 0 5%;
+}
+
+.about-body p{
+	width:70%;
+	font-family:"Raleway", sans-serif;
+	font-size:26px;
+	padding:3% 5%;
+	float: left;
+	line-height:30px;
+}
+
+#side {
+	width:7%;
+	float:left;
+	margin:5% 0 0 5%;
+
+}
+
+#profile1{
+	width:34%;
+	margin-left:5%;
+	margin-bottom:5%;
+}
+
+
+/* Portfolio.html page styling */
+.portfolio img{
+ width:70%;
+ margin-left: 15%;
+ margin-right: 15%;
+}
+
+#row-1{
+	margin-left:5%;
+}
+
+#row-1 img{
+	width: 27%;
+	margin:5% 5% 5% 0;
+	
+}
+
+#row-1 img:hover{
+	box-shadow: 0 0 22px;
+	color:gray;
+}
+
+
+/* CONTACT FORM VIA CONTACT.HTML */
+/* general form setup */
+.contact-form{
+	margin-top:17%;
+}
+
+input {
+	font-family: "Raleway", sans-serif;
+    width:45%;
+    margin-left:5%;
+    height:13px;
+    background:white;
+    border:1px solid #dedede;
+    padding:10px;
+    margin-bottom:7px;
+    font-size: 0.9em;
+    color:#3a3a3a;
+}
+
+textarea {
+	font-family: "Raleway", sans-serif;
+    width:45%;
+    margin-left:5%;
+    height:175px;
+    background:white;
+    border:1px solid #dedede;
+    padding:10px;
+    margin-bottom:7px;
+    font-size: 0.9em;
+    color:#3a3a3a;
+    border-radius:3px;
+}
+
+/* Submit Button on Contact Page */
+#submit {
+    height: 38px;
+    width:10%;
+    border: 1px solid black;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 5%;
+}
+
+#submit:hover {
+    background:black;
+    color:white;
+}
+
+/* Image on Contact Page */
+#img-3{
+	float: right;
+	width:35%;
+	margin:-33% 5% 5% 5%;
+	margin-top:-33%;
+	margin-right:
+}
+
+footer{
+	color: #111111;
+	background-color:#666666;
+	font-family: "Open Sans", sans-serif;
+	text-align: left;
+	line-height: 1.5;
+    font-size: 18px;	width: 100%;
+	padding: 30px 0 15px 0;
+
+}
+
+
+#foot
+{
+	color: white;
+	text-align: center;
+}
+
+
+
+
+/* MEDIA QUERIES TABLETS AND MOBILE DEVICES */
+
+
+
+
+
+
+
+/* MEDIA QUIERIES TABLETS */
+/* tablets and ipad devices only */
+@media only screen and (max-width: 900px) {
+
+	/* Hamburger Navigation Icon Styling */
+	#nav-icon3{
+		margin-top:-7%;
+	}
+
+	.intro i{
+		margin:14% 0 5% 49%; 
+		
+	}
+
+	/* MAIN BODY */
+	/* heading - all page universal, title of the page */
+	.heading{
+		font-size: 58px;
+	}
+
+	.about-body p{
+		width:70%;
+		font-size:22px;
+	}
+
+	/* Image on Contact Page */
+	#img-3{
+		margin-top:-40%;
+	}
+    
+}
+
+
+
+/* MEDIA QUIERIES PHONES */
+/* for mobile devices only */
+@media only screen and (min-width: 320px) and (max-width: 736px)
+  and (orientation: portrait){
+  	
+	
+}
+
+
+
