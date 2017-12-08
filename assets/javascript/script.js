@@ -16,10 +16,10 @@ $(document).ready(function() {
 
   	});
 
+	$(function(){$(".connectScroll").click(function(){$("html,body").animate({scrollTop:$("#connect").offset().top},"1000");return false})})
 
+	$(function(){$(".workScroll").click(function(){$("html,body").animate({scrollTop:$("#work").offset().top},"1000");return false})})
 
-	
-
-
+	$(function(){$(".aboutScroll").click(function(){$("html,body").animate({scrollTop:$("#about").offset().top},"1000");return false})})
 
 });
