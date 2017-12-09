@@ -214,11 +214,38 @@ hr {
 
 .snip{
 	float: left;
-	width: 25%;
-	margin: 4% 4% 4% 4%;
+    height: 40em;
+    border-radius: 0.3em;
+    max-width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+    position: relative;
 	background-color: lightgray;
-	border-radius: 6px;
-	min-height: 640px;
+}
+
+.rel{
+  position: absolute;
+  top: 500px;
+  right: 5px;
+  bottom: 5px;
+  left: 5px;
+}
+
+.rel2{
+  position: absolute;
+  top: 475px;
+  right: 5px;
+  bottom: 5px;
+  left: 5px;
+}
+
+.rel3{
+  position: absolute;
+  top: 447px;
+  right: 5px;
+  bottom: 5px;
+  left: 5px;
 }
 
 .block{
@@ -226,7 +253,7 @@ hr {
 }
 
 .blocky1{
-margin-bottom: 19%;
+	margin-bottom: 19%;
 
 }
 
