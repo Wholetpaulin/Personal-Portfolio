@@ -130,11 +130,11 @@ body{
 
 .scroll-1 p{
 	font-family: "Open Sans", serif;
-	text-align: center;
+	text-align: left;
 	font-size: 22px;
 	padding: 4%;
 	line-height: 1.5;
-	padding-bottom: 27.5%;
+	padding-bottom: 10%;
 	margin-bottom:0;
 }
 /* second section button styling */
@@ -222,14 +222,6 @@ hr {
     margin-top: 8%;
     position: relative;
 	background-color: lightgray;
-}
-
-.rel{
-  position: absolute;
-  top: 500px;
-  right: 5px;
-  bottom: 5px;
-  left: 5px;
 }
 
 .rel2{
