@@ -130,7 +130,7 @@ body{
 
 .scroll-1 p{
 	font-family: "Open Sans", serif;
-	text-align: left;
+	text-align: left ;
 	font-size: 22px;
 	padding: 4%;
 	line-height: 1.5;
@@ -171,8 +171,11 @@ hr {
 
 /* index.html second section styling */
 .scroll-2{
-    background-image: url('../images/dark-triangles.png');
+    background-image: url('../images/black-pattern.png');
 	min-height: 90%;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100%;
 }
 
 .scroll-2 img{
